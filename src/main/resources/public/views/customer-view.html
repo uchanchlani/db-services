@@ -1,0 +1,23 @@
+<div class="container pad-top">
+  <table class="table customertable">
+      <tr>
+          <td><h3>Details for {{customer.firstName}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>First Name</td>
+          <td>{{customer.firstName}}</td>
+      </tr>
+      <tr>
+          <td>Last Name</td>
+          <td>{{customer.lastName}}</td>
+      </tr>
+      <tr>
+          <td>Email ID</td>
+          <td>{{customer.emailID}}</td>
+      </tr>
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editCustomer({id:customer.id})">Edit</a>
+  </div>
+</div>
