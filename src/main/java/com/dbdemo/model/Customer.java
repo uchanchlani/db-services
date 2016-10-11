@@ -18,7 +18,10 @@ public class Customer {
 		this.lastName = lastName;
 		this.emailID = emailID;
 	}
-	
+
+	public Customer() {
+	}
+
 	@Override
 	public String toString() {
 		return String.format("Customer[id=%d, firstName='%s', lastName='%s']", id, firstName, lastName);
